@@ -3,6 +3,7 @@ nav{
     display: flex;
     /* width: 100vw; */
     background-color: rgb(170, 32, 32);
+    height: 60px;
 }
 .name{
 
@@ -10,18 +11,18 @@ nav{
     font-size: 2.5rem;
     font-weight:bolder;
     /* border: 1px solid red; */
-    margin-top: 0.4rem;
+    /* margin-top: 0rem; */
     color: white;
 }
 .bars-icons{
     margin-left: 3rem;
-    margin-top: .8rem; 
+    margin-top: .6rem; 
     /* float: right; */
     font-size: 2rem;
     display: none;
 }
 .search-bar{
-   margin-top: 1.2rem;
+   margin-top: 0.9rem;
     height: 2.2rem;
 width: 25rem;
     margin-left: 16rem;
@@ -32,7 +33,7 @@ width: 25rem;
 .Search-btn{
    height: 2rem;
    padding: .5rem 1rem ;
-   margin-top: .3rem;
+   margin-top: .1rem;
    margin-left: -3.5rem;
    background: none;
   

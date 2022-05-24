@@ -4,12 +4,14 @@ import './App.css';
 import Navbar from './components/navbar';
 import {BrowserRouter as router ,routes,route} from 'react-router-dom'
 import Carousell from './components/carousel';
+import Promotions from './components/promotions';
 function App() {
   return (
     <>
    <Navbar/>
     {/* <h1>hello</h1>   */}
     <Carousell/>
+    <Promotions/>
     
     </>
   );
