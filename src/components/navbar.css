@@ -1,0 +1,77 @@
+nav{
+    /* border: .1rem solid red; */
+    display: flex;
+    /* width: 100vw; */
+    background-color: rgb(170, 32, 32);
+    height: 60px;
+}
+.name{
+
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    font-weight:bolder;
+    /* border: 1px solid red; */
+    /* margin-top: 0rem; */
+    color: white;
+}
+.bars-icons{
+    margin-left: 3rem;
+    margin-top: .6rem; 
+    /* float: right; */
+    font-size: 2rem;
+    display: none;
+}
+.search-bar{
+   margin-top: 0.9rem;
+    height: 2.2rem;
+width: 25rem;
+    margin-left: 11rem;
+    border-radius: .7rem;
+    padding-left: 1.5rem;
+    border: 1px solid  rgb(170, 32, 32);
+}
+.Search-btn{
+   height: 2rem;
+   padding: .5rem 1rem ;
+   margin-top: .1rem;
+   margin-left: -3.5rem;
+   background: none;
+  
+   border: none;
+   font-size: 1.7rem;
+}
+.navbar-list {
+    /* margin-left: 2rem; */
+    list-style-type:none;
+ margin-top: .7rem;
+    /* display: none; */
+    
+}
+.navbar-list-item{
+    display: inline;
+    /* margin-left: 30px; */
+    /* float: right; */
+    margin-top: -0.3rem;
+    font-size: 1.7rem;
+    margin-left: 4rem;
+    color: white;
+}
+.navbar-list-item-cart{
+    display: inline;
+    margin-left: 30px;
+   position: relative;
+  color: white;
+    font-size: 1.7rem;
+    /* margin-left: 5rem; */
+}
+
+.dropDown{
+    height: 2rem;
+    width: 3rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.desktop ul li{
+    display: none;
+    display: flex;
+}

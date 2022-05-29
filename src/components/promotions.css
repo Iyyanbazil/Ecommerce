@@ -1,0 +1,19 @@
+.promo-img{
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 5rem;
+    width:5rem ;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    /* padding-bottom: 0.8rem; */
+}
+.promo-head{
+    margin-left:10rem;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.grid{
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px 200px 200px 200px; */
+    grid-template-columns: 9.5rem 9.5rem 9.5rem 9.5rem 9.5rem 9.5rem;
+}

@@ -1,0 +1,45 @@
+.grid-men{
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px 200px 200px 200px; */
+    grid-template-columns: 9.5rem 9.5rem 9.5rem 9.5rem 9.5rem 9.5rem;
+    column-gap: 30px;
+    margin-left: 50px;
+}
+.product-card{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5%;
+}
+.men-name{
+    display: flex;
+    justify-content: center;
+
+}
+@keyframes blink {
+    /* 0%{opacity: 0;}
+    25%{opacity: 0.50;}
+    50%{opacity: 100;}
+    75%{opacity: 0;}
+    100%{opacity:100;} */
+    from {opacity: 0;}
+    to {opacity: 100;}
+    /* 0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;} */
+    
+}
+.main-head-men{
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgb(165, 27, 27);
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.product-dis{
+    font-size: 10px;
+}
+.link-show-more{
+    text-decoration: none;
+}

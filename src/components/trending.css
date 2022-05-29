@@ -1,0 +1,19 @@
+.grid-trending{
+    display: grid;
+    grid-template-columns: 32rem 30rem;
+    margin-left: 40px;
+    height: 300px;
+}
+.main-head-tren{
+    color: red;
+}
+.first-colom{
+    border: 1px solid black;
+    
+}
+.second-colom{
+    grid-template-rows: 12rem 12rem;
+}
+.row-one{
+    grid-template-columns: 6rem 6rem;
+}
