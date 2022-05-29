@@ -10,7 +10,8 @@ const Trending = () => {
                 </div>
                 <div className='second-colom'>
                     <div className='row-one'>
-                        <div className='first'></div>
+                        <div className='first'>first</div>
+                        <div className='second'>second</div>
                         
                     <h1>this is the text for thesdfsdf </h1>
                     </div>
