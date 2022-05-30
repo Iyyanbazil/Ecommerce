@@ -3,6 +3,8 @@ import Carousell from './carousel'
 import Promotions from './promotions'
 import MenCatagory from './menCatagory'
 import Trending from './trending'
+import AllProduct from './allProduct'
+import Footer from './footer'
 const Home = () => {
   return (
     <>
@@ -10,6 +12,8 @@ const Home = () => {
     <Promotions/>
     <MenCatagory/>
     <Trending/>
+    <AllProduct/>
+    <Footer/>
     
     </>
   )

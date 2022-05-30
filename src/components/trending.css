@@ -1,19 +1,97 @@
+@keyframes changer {
+    0% {background-image: url("/public/images/p1.jpg");background-size:cover;background-repeat: no-repeat;}
+    25% {background-image: url("/public/images/p2.jpg");background-size:cover;background-repeat: no-repeat;}
+    50% {background-image: url("/public/images/p3.jpg");background-size:cover;background-repeat: no-repeat;}
+    75% {background-image: url("/public/images/p4.jpg");background-size:cover;background-repeat: no-repeat;}
+    100% {background-image: url("/public/images/p5.jpg");background-size:cover;background-repeat: no-repeat;}
+    
+}
+@keyframes blink {
+  
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+.main-head-tren{
+    margin-top: -2rem;
+    margin-left: 50px;
+    color: rgb(165, 27, 27);
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 .grid-trending{
     display: grid;
-    grid-template-columns: 32rem 30rem;
-    margin-left: 40px;
-    height: 300px;
+    grid-template-columns: 26rem 40rem;
+    margin-left: 70px;
+    /* height: 300px; */
 }
 .main-head-tren{
     color: red;
 }
+
 .first-colom{
-    border: 1px solid black;
-    
+ 
+    height: 23rem;
+    width: 23rem;
+    margin-left: 2rem;
+    /* background-image: url("/public/images/fourth.jpg"); */
+    animation-name: changer;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+   animation-fill-mode:both;
+    animation-timing-function:ease;
+    animation-play-state:running;
 }
+
 .second-colom{
-    grid-template-rows: 12rem 12rem;
+    grid-template-rows: 12rem 18rem;
+    margin-right: 2rem;
+    /* border: 1px solid red; */
 }
 .row-one{
-    grid-template-columns: 6rem 6rem;
+    display:grid;
+    grid-template-columns: 6rem 6rem 6rem 6rem 6rem 6rem;
+}
+.row-two{
+    /* border: 1px solid red; */
+    margin-top: 1rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 10rem 9rem 9rem 9rem;
+    margin-left: 0.9rem;
+    
+}
+.brand-img{
+    margin-right: 2rem;
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+}
+.brand-name{
+    margin-left: 0.8rem;
+}
+.new-card{
+    border:  1px solid black;
+    border-radius: 8%;
+    width: 8rem;
+    height: 12.5rem;
+}
+.new-name{
+    display: flex;
+    justify-content: center;
+}
+.new-dis{
+    margin-left: 0.5rem;
+}
+.new-img{
+    border-radius: 8%;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+.head-new-arrival{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    padding: 3px;
+    border-radius: 10%;
 }

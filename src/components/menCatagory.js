@@ -6,22 +6,6 @@ const MenCatagory = () => {
   return (
     <>
     <h3 className='main-head-men'>For Mens</h3>
-    {/* <div className='grid-men'>
-    {Data.map((curELem)=>{
-        return(
-            <>
-            <div className='product-card'>
-        <img height="120px" width="140px" src={curELem.img}/>
-        <h4 className='men-name'>{curELem.name}</h4>
-        <p>{curELem.des}</p>
-        </div>
-        </>
-        )
-
-    })
-
-    }
-    </div> */}
    
     <Carousel variant="dark" indicators="" wrap="">
   <Carousel.Item>

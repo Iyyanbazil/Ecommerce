@@ -1,0 +1,46 @@
+.grid-all{
+display: grid;
+/* grid-template-columns: 200px 200px 200px 200px 200px 200px; */
+grid-template-columns: 10rem 10rem 10rem 10rem 10rem ;
+column-gap: 2rem;
+row-gap: 4rem;
+margin-left: 8rem;
+margin-top: 5rem;
+
+}
+@keyframes blink {
+    
+    from {opacity: 0;}
+    to {opacity: 100;}
+  
+    
+}
+.all-head{
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgb(165, 27, 27);
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.all-card{
+border: 2px solid black;
+border-radius: 10%;
+/* cursor: pointer; */
+
+}
+.all-img{
+    border-radius: 11%;
+    margin-left: 1px;
+}
+.all-name{
+    display: flex;
+    justify-content: center;
+   
+}
+.all-dis{
+    margin-left: 1rem;
+}
+.link-show-more{
+    margin-left: 1rem;
+}

@@ -16,17 +16,10 @@
 
 }
 @keyframes blink {
-    /* 0%{opacity: 0;}
-    25%{opacity: 0.50;}
-    50%{opacity: 100;}
-    75%{opacity: 0;}
-    100%{opacity:100;} */
+    
     from {opacity: 0;}
     to {opacity: 100;}
-    /* 0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;} */
+  
     
 }
 .main-head-men{

@@ -1,0 +1,20 @@
+.footer{
+    height: 20rem;
+    margin-top: 4rem;
+    background-color: rgb(101, 95, 95);
+    opacity: 0.8;
+    /* border: 1px solid red; */
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 22rem 22rem 20rem;
+padding-left: 3rem;
+}
+.list{
+    list-style-type:none;
+    font-weight: bolder;
+    color: white;
+}
+.heading{
+    color: white;
+    margin-top: 2rem;
+}
